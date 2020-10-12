@@ -1,0 +1,352 @@
+body
+{
+    font-family: 'Raleway';
+    background: crimson;
+}
+.formbox1
+{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 70%;
+    border-radius: 4px;
+    overflow: hidden;
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.formbox2
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+    background: white;
+    background-image: url(../img/pf.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: right bottom;
+}
+.avt
+{
+    position: relative;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 200px;
+    border: 1px solid black;
+    padding: 6px;
+}
+#signup
+{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 30%;
+}
+#signup .form
+{
+    top: 48%;
+}
+#signup .socialbox
+{
+    top: 78%;
+}
+.formbox3
+{
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+}
+.formbox3 h2
+{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.formbox3 p
+{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.formbox3 button
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: teal;
+    background-color: transparent;
+    cursor: pointer;
+}
+.form
+{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 350px; 
+    background-color: white;
+    border-radius: 5px;
+}
+.form p
+{
+    font-size: 12px;
+    color: red;
+    margin-left: 15px;
+}
+.eye
+{
+    position: absolute;
+    right: 30px;
+    margin-top: -38px;
+    border: none;
+    background-color: transparent;
+}
+#hide
+{
+    display: none;
+}
+.form
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"]
+{
+    border: 1.5px solid black;
+    border-radius: 2px;
+    background-color: transparent;
+    width: 85%;
+    height: 15px;
+    color: black;
+    font-size: 15px;
+    margin: 5px 15px;
+    padding: 10px;
+    font-family: 'Raleway';
+}
+.form label
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+.form a
+{
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+}
+.forgot a
+{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    margin-bottom: 20px;
+
+}
+.form input[type="checkbox"]
+{
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    width: 20px;
+}
+.form input[type="submit"]
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    border: 2px solid crimson;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 15px ;
+    padding: 8px 10px;
+    width: 150px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    background-color: transparent;
+    color: crimson;
+    transition: 0.3s;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.200);
+}
+.form input[type="submit"]:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: crimson;
+}
+.socialbox
+{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.socialbox p
+{
+    color: black;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+.social
+{
+    display: inline-flex;
+    text-align: center;
+}
+.social a
+{  
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 100px;
+    color: white;
+    transition: 0.5s;
+}
+.social a:nth-child(1)
+{
+    margin-left: 0px;
+    background-color:brown;
+}
+.social a:nth-child(1):hover
+{
+    background-color: white;
+    color:brown;
+}
+.social a:nth-child(2)
+{
+    background-color:#3B5998;
+}
+.social a:nth-child(2):hover
+{
+    background-color: white;
+    color:#3B5998;
+}
+.social a:nth-child(3)
+{
+    background-color: #00ACEE;
+}
+.social a:nth-child(3):hover
+{
+    background-color: white;
+    color:#00ACEE;
+}
+.social a:nth-child(4)
+{
+    background-color:#0E76A8;
+}
+.social a:nth-child(4):hover
+{
+    background-color: white;
+    color:#0E76A8;
+}
+@media (max-width: 720px)
+{
+    .formbox1
+    {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        transform: none;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        background-image: none;
+        background-color: white;
+    }
+    #signup
+    {
+        left: 0%;
+        top: 80px;
+    }
+    #signup .form{
+        top: 33%;
+
+    }
+    #signup .socialbox
+    {
+        top: 75%;
+    }
+    .formbox2
+    {
+        position: absolute;
+        left: 0%;
+        top: 80px;
+        transform: none;
+        height: 90%;
+        width: 100%;
+        background-size: 150px 150px;
+        padding: 0;
+    }
+    .formbox2 p
+    {
+        font-size: 13px;
+    }
+    .form
+    {
+        top: 55%;
+        width: 320px;
+        height: 200px;
+    }
+    .form
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"]
+    {
+        border: 1.5px solid black;
+        border-radius: 2px;
+        height: 12px;
+        font-size: 13px;
+    }
+    .form label
+    {
+        font-size: 12px;
+    }
+    .form p
+    {
+        font-size: 10px;
+    }
+    .socialbox
+    {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .socialbox p
+    {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .social
+    {
+        display: inline-flex;
+        text-align: center;
+    }
+    .eye
+    {
+        right: 15px;
+        margin-top: -35px;
+    }
+   
+}
